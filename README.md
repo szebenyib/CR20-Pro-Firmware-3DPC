@@ -41,3 +41,11 @@ XLoader is a program designed to upload firmwares to your 3d printer. Download X
       - COM Port: The com port for your printer (should only be 1-2 there - try both if you don't have success at first)
       - Baud Rate: 115200
 3) Press Upload.
+
+## Building hex file from source
+
+1) Edit Configuration.h in Arduino IDE
+2) Choose board ATMEGA2560
+3) Add u8glib for lcd from the library manager
+4) Build
+5) Locate hex file in the Marlin folder
